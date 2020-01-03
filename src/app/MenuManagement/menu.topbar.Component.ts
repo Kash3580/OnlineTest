@@ -7,7 +7,7 @@ import  {Component} from "@angular/core";
         <span class="logo">Online Test</span>
          <ul id="css3menu1" class="topmenu">
             	<li class="switch"><label onclick="" for="css3menu-switcher"></label></li>
-            	<li class="topmenu"><a href="#" style="height:13px;line-height:13px;">Home</a></li>
+            	<li class="topmenu"><a href="home" style="height:13px;line-height:13px;">Home</a></li>
 
             	<li class="topmenu"><a href="#" style="height:13px;line-height:13px;">Examples</a></li>
             	<li class="topmenu"><a href="#" style="height:13px;line-height:13px;">License</a></li>

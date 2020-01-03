@@ -14,6 +14,10 @@ import{QuestionComponent}  from './Question/Question.Component';
 import{QuestionListComponent}  from './Question/Question.List.Component';
 
 import{QuestionService} from './Question/Question.Service';
+
+import{RouterModule} from "@angular/router"
+import {appRoutes} from '../routes'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +29,8 @@ import{QuestionService} from './Question/Question.Service';
     QuestionListComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [
     QuestionService

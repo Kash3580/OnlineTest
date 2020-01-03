@@ -5,7 +5,7 @@ import{Component}  from  '@angular/core';
       selector:'app-root',
       template: `
         <topMenu></topMenu>
-         <test-about></test-about>
+         <router-outlet></router-outlet>
            `
 })
 

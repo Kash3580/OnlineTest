@@ -6,17 +6,10 @@ export class QuestionService{
    getQuestions(){
     return QuestionData
    }
+
    getQuestion(id:number){
-    return QuestionData.find( 
-    function(item, index){ {
-            if (index===id)
-              return item;
-      }
-    );
+        return QuestionData
    }
-
-
-
 }
 const QuestionData=  [
        {
@@ -26,8 +19,10 @@ const QuestionData=  [
            "question": "What is the scientific name for modern day humans?",
            "correct_answer": "Homo Sapiens",
            "incorrect_answers": [
+
                "Homo Ergaster",
                "Homo Erectus",
+                "Homo Sapiens",
                "Homo Neanderthalensis"
            ]
        },
@@ -38,6 +33,7 @@ const QuestionData=  [
            "question": "Which species of Brown Bear is not extinct?",
            "correct_answer": "Syrian Brown Bear",
            "incorrect_answers": [
+              "Syrian Brown Bear",
                "California Grizzly Bear",
                "Atlas Bear",
                "Mexican Grizzly Bear"
